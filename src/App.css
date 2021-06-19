@@ -1,35 +1,49 @@
 .b1{
-	background: yellow;
-	top: 135px;
-	left: 135px;
+	background: orangered;
+	top: 0px;
+	left: 0px;
 }
 .b2{
-	background: blue;
-	top: 135px;
-	left: 25px;
+	background: green;
+	top: 0px;
+	left: 110px;
 }
 .b3{
-	background: red;
-	top: 25px;
-	left: 25px;
+	background: blue;
+	top: 110px;
+	left: 0px;
 }
 .b4{
-	background: green;
-	top: 25px;
-	left: 135px;
+	background: yellow;
+	top: 110px;
+	left: 110px;
 }
 .box{
 	border: 1px solid black;
 	position: absolute;
 	width: 100px;
 	height: 100px;
+	box-shadow: 155px 36px 3px 0px grey;
 }
-.transform{
-	transform: skew(-4deg, -6deg);
+.container{
+	height: 210px;
+	width: 210px;
+	animation: App-logo-spin infinite 10s;
+	animation-timing-function: linear;
+	position: absolute;
+	top: calc(50% - 105px);
+	left: calc(50% - 105px);
 }
-.shadow{
-	box-shadow: 5px 5px 7px 5px rgba(0,0,0,0.53);
+
+@keyframes App-logo-spin {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(0deg);
+	}
 }
+
 .App {
 	text-align: center;
 }
