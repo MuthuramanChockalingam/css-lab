@@ -62,13 +62,24 @@
 	}
 }
 
+@keyframes logo-movement {
+	0% {
+		top:0%;
+		left:0%;
+	}
+	100% {
+		top: 50%;
+		left: 50%;
+	}
+}
+
 .App {
 	text-align: center;
 }
 
 @media (prefers-reduced-motion: no-preference) {
 	.logo {
-		animation: container-spin infinite 20s linear;
+		animation: logo-movement 5s, container-spin infinite 20s linear;
 	}
 	.container {
 		animation: box-size infinite 6s ease-in-out;
