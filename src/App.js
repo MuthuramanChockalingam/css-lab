@@ -1,8 +1,8 @@
 import { React } from 'react';
 import './App.css';
-import LOGO from './components/Logo/index.js';
+import Logo from './components/Logo/index.js';
 
 const App = () =>
-	<div className="App">{LOGO()}</div>;
+	<div className="App">{Logo()}</div>;
 
 export default App;
