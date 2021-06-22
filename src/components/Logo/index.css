@@ -3,27 +3,32 @@
 	bottom: 55%;
 	right: 55%;
 }
+
 .b2{
 	background: green;
 	bottom: 55%;
 	left: 55%;
 }
+
 .b3{
 	background: blue;
 	top: 55%;
 	right: 55%;
 }
+
 .b4{
 	background: yellow;
 	top: 55%;
 	left: 55%;
 }
+
 .box{
 	position: absolute;
 	width: 50%;
 	height: 50%;
 	box-shadow: 155px 36px 3px 0px grey;
 }
+
 .logo{
 	height: 100px;
 	width: 100px;
