@@ -1,8 +1,9 @@
 import { React } from 'react';
 import './App.css';
-import Logo from './components/Logo/index.js';
+import Pendulum from './components/Pendulum/index.js';
+// import Logo from './components/Logo/index.js';
 
 const App = () =>
-	<div className="App">{Logo()}</div>;
+	<div className="App">{Pendulum()}</div>;
 
 export default App;
