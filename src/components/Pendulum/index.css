@@ -1,17 +1,46 @@
-.ball{
-	height: 100px;
-	width: 100px;
+.ball {
+	height: 50%;
+	width: 100%;
 	position: absolute;
 	border-radius: 50%;
-	top: 52%;
+	top: 72%;
 	left: calc(50% - 50px);
 	background-color: yellow;
 }
 
-.line{
+.line {
 	border-left: 12px solid blue;
-	height: 150px;
+	height: 78%;
 	position: absolute;
+	top: 0%;
+	left: calc(50% - 6px);
+}
+
+.container {
+	height: 100%;
+	width: 100%;
+}
+
+.pendulum {
+	height: 200px;
+	width: 100px;
 	top: 30%;
-	left: 50%;
+	left: calc(50% - 50px);
+	position: absolute;
+	transform-origin: top;
+}
+
+@keyframes pendulum-movement {
+	from {
+		transform: rotate(35deg);
+	}
+	to {
+		transform: rotate(-35deg);
+	}
+}
+
+ @media (prefers-reduced-motion: no-preference) {
+	 .pendulum {
+		animation: pendulum-movement infinite 3s ease-in-out alternate;
+ 	}
 }
