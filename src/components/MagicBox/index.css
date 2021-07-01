@@ -1,9 +1,7 @@
 .box {
 	height: 80%;
 	width: 80%;
-	position: absolute;
-	top: calc(50% - 40%);
-	left: calc(50% - 40%);
+	padding: 10%;
 	border: 1px solid black;
 }
 
