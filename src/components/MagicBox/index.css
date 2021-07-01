@@ -1,0 +1,16 @@
+.box {
+	height: 80%;
+	width: 80%;
+	position: absolute;
+	top: calc(50% - 40%);
+	left: calc(50% - 40%);
+	border: 1px solid black;
+}
+
+.magic-box{
+	height: 500px;
+	width: 500px;
+	position: absolute;
+	top: calc(50% - 250px);
+	left: calc(50% - 250px);
+}
